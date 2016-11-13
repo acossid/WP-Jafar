@@ -202,6 +202,7 @@ li.page_item.page-item-11{order: 4;}
 	display: flex;
 	align-items: center;
 	padding: 20px 30px;
+	margin: 100px 0;
 }
 
 .actu-title {
@@ -214,6 +215,7 @@ li.page_item.page-item-11{order: 4;}
 .actu-container {
 	font-size: 22px;
 	padding-top: 10px;
+	margin-bottom: -17px;
 	display: flex;
 	overflow: scroll;
 	overflow-y: hidden;
@@ -240,10 +242,14 @@ li.page_item.page-item-11{order: 4;}
 	font-size: 22px;
 }
 
+.actu-container::-webkit-scrollbar {
+    width: 0;
+}
+
 /*------------------------------------- FORM */
 
 .join {
-	margin: 120px 0 120px 400px;
+	margin: 160px 0 180px 400px;
 	display: flex;
 }
 
@@ -291,3 +297,79 @@ li.page_item.page-item-11{order: 4;}
 /*---------------------------------------------------------------------------------------------------------------*/
 /*------------- A PROPOS */
 /*---------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------- PROGRAMME */
+.jafar-slogan_img.jafar-apropos {
+	background-image: url('../images/jafar-apropos.jpg');
+}
+
+.programme-container {
+	display: flex;
+	flex-direction: column-reverse;
+	width: 50vw;
+	margin: 50px auto;
+}
+
+.programme-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 50vw;
+	margin: 50px auto;
+	
+}
+
+.programme-content:nth-child(odd) {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.programme-num {
+	font-family: aladdin;
+	color: #F3A943;
+	font-size: 10em;
+	margin-top: -80px;
+
+}
+
+.programme-text {width: 400px;}
+
+.programme-title {
+	font-family: aladdin;
+    font-size: 3.2em;
+    color: #93281F;
+}
+
+.programme-content:nth-child(even) .programme-title{
+	color: #4A90E2;
+}
+
+.programme-text p {font-size: 16px; text-align: justify;}
+
+/*------------------------------------- MORE */
+.jafar-more_img {
+	background-image: url('../images/jafar-more.jpg');
+	background-size: 100%;
+	width: 100vw;
+	height: 500px;
+}
+
+.jafar-slogan.jafar-more {
+	padding-left: 0;
+	padding-top: 130px;
+	margin: 20px auto;
+}
+
+.jafar-slogan.jafar-more p {margin: 0 auto;}
+
+.more-content {
+	width: 50vw;
+	margin: 50px auto;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.more-content span {
+	color: #F3A943;
+	font-weight: 500;
+}
