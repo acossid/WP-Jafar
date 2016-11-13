@@ -1,0 +1,293 @@
+@fontface {
+	font-family: 'Aladdin';
+	src: url('../fonts/aladdin2.ttf');
+}
+
+body {
+	font-family: ExcellenceInMotion;
+	overflow-x: hidden;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*------------- HOME */
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------- HEADER */
+
+/*--ORDER--*/
+li.page_item.page-item-13 {
+	order: 1;
+	font-family: 'Aladdin';
+	font-size: 3em;
+}
+
+li.page_item.page-item-2{order: 2;}
+
+li.page_item.page-item-6{order: 3;}
+
+li.page_item.page-item-11{order: 4;}
+
+
+/*--CONTENT--*/
+.navbar {
+	background-color: transparent;
+	border-color: transparent;
+	position: absolute;
+	width: 100vw;
+}
+
+.navbar_container {
+	padding: 30px 40px 10px 40px;
+	justify-content: space-between;
+	display: flex;
+	font-size: 1.6em;
+}
+
+.navbar-logo {
+	font-family: 'Aladdin';
+	font-size: 3em;
+}
+
+.navbar-text {
+	color: #fefefe !important;
+	margin: 10px;
+}
+
+.navbar_menu {
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+	max-width: 1400px;
+}
+
+.menu_header {flex-grow: 1;}
+
+.menu_header ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 22px;
+}
+
+.menu_header ul a {color: #fefefe;}
+
+.menu_header ul a:hover {
+	text-decoration: none;
+}
+
+.donner_button {
+	background-color: #F3A943;
+	padding: 5px 15px;
+	margin: 10px 0 0 40px;
+} 
+
+/*------------------------------------- FOOTER */
+
+#footer {
+	background-color: #93281F;
+	color: #fefefe;
+	width: 100vw;
+	height: 180px;
+	padding-top: 40px;
+}
+
+.footer-content {
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+}
+
+.newsletter {
+	font-size: 22px;
+	margin-right: 100px;
+}
+
+.newsletter span {
+	color: #D9D7D7;
+	border: thin solid #F3A943;
+	padding: 5px 15px;
+}
+
+.media-list {
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+}
+
+.social-list {
+	background-size: 100%;
+	width: 60px;
+	height: 60px;
+}
+.fb {background-image: url(../images/facebook.png);}
+.gplus {background-image: url(../images/googleplus.png);}
+.insta {background-image: url(../images/instagram.png);}
+.tw {background-image: url(../images/twitter.png);}
+.yt {background-image: url(../images/youtube.png);}
+
+
+.mention-legal {
+	text-align: center;
+	font-size: 20px;
+	padding-top: 40px;
+} 
+
+/*------------------------------------- SLOGAN */
+
+.jafar-slogan_img {
+	background-image: url('../images/Jafar-home.jpg');
+	background-size: 100%;
+	width: 100vw;
+	height: 100vh;
+}
+
+.jafar-slogan {
+	padding-left: 10vw;
+	padding-top: 37vh;
+}
+
+.jafar-slogan p {
+	background-color: rgba(0,0,0,0.5);
+	font-family: aladdin;
+	font-size: 5em;
+	text-align: center;
+	color: #fefefe;
+	padding: 80px;
+	width: 600px;
+}
+
+/*------------------------------------- INTRO */
+
+.intro-title {
+	font-family: aladdin;
+	font-size: 3.2em;
+	text-align: center;
+	margin: 60px auto 40px;
+}
+
+.intro-title span {
+	color: #F3A943;
+	margin: 0 40px;
+}  
+
+.intro-content {
+	width: 50vw;
+	font-size: 18px;
+	margin: auto;
+	text-align: justify;
+
+}
+
+.intro-content span {
+	color: #F3A943;
+	font-weight: 600;
+}
+
+.intro-img {
+	background-image: url('../images/Jafar-intro.jpg');
+	width: 50vw;
+	height: 418px;
+	margin: 40px auto;
+	box-shadow: 0px 3px 5px 0px #c0c0c0;
+}
+
+/*------------------------------------- ACTU */
+
+.actu {
+	background-color: #93281F;
+	color: #fefefe;
+	display: flex;
+	align-items: center;
+	padding: 20px 30px;
+}
+
+.actu-title {
+	font-family: aladdin;
+	font-size: 3.2em;
+	padding-right: 70px;
+
+}
+
+.actu-container {
+	font-size: 22px;
+	padding-top: 10px;
+	display: flex;
+	overflow: scroll;
+	overflow-y: hidden;
+}
+
+.actu-container ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-grow: 1;
+	padding-left: 0;
+	white-space: nowrap;
+}
+
+.actus .type {
+	background-color: #F3A943;
+	padding: 8px 15px 7px;
+	margin: 0 20px 0 40px;
+	text-align: center;
+}
+
+.actus a {
+	color: #fefefe;
+	font-size: 22px;
+}
+
+/*------------------------------------- FORM */
+
+.join {
+	margin: 120px 0 120px 400px;
+	display: flex;
+}
+
+.join-form {
+	background-color: #93281F;
+	text-align: center;
+	width: 25vw;
+	height: 270px;
+	font-size: 18px;
+	padding: 20px;
+}
+
+.form-title {
+	color: #fefefe;
+	font-size: 32px;
+}
+
+.form-input {
+	text-align: center;
+	height: 50px;
+	width: 45%;
+	margin: 10px 0;
+}
+
+.form-submit {
+	background-color: #F3A943;
+	border: none;
+	width: 91%;
+	height: 70px;
+	text-align: center;
+	font-size: 22px;
+	color: #fefefe;
+}
+
+.join-img {
+	background-image: url(../images/form.png);
+	background-size: 100%;
+	width: 30vw;
+	height: 350px;
+	margin: -40px;
+	z-index: -1;
+} 
+
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*------------- A PROPOS */
+/*---------------------------------------------------------------------------------------------------------------*/
