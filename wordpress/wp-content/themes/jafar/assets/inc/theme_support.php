@@ -6,7 +6,7 @@
 	    add_theme_support( 'post-thumbnails' );
 
 	    add_image_size("thumbnail_annonces",300,420,false);
-		add_image_size("thumbnail_annonce_full",1200,600,false);
+		add_image_size("thumbnail_actu",350,350,false);
 		add_image_size("thumbnail_slide",1500,600,true);
 	}
 

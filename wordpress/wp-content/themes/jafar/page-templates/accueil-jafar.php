@@ -4,6 +4,7 @@ Template Name: Page accueil Jafar
 */
 get_header(); //appel du template header.php  ?>
 
+	<!-- ************************ SLOGAN ************************ -->
 	<div class="jafar-slogan_img">
 		<div class="jafar-slogan"> <p>Le seul candidat pour 2017</p> </div>
 	</div>
@@ -21,6 +22,8 @@ get_header(); //appel du template header.php  ?>
 		<div class="intro-img"></div>
 	</div>
 
+
+	<!-- ************************ ACTUALIT2 ************************ -->
 	<div class="actu">
 		<div class="actu-title"> Actualités </div>
 		<div class="actu-container">
@@ -58,6 +61,8 @@ get_header(); //appel du template header.php  ?>
 		</div>
 	</div>
 
+
+	<!-- ************************ JOIN ************************ -->
 	<div class="join">
 		
 		<div class="join-form">

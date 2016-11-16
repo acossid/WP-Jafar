@@ -71,17 +71,25 @@ li.page_item.page-item-11{order: 4;}
 	margin-top: 22px;
 }
 
-.menu_header ul a {color: #fefefe;}
+.menu_header ul a {
+	color: #fefefe;
+	transition: color .3S ease-in;
+}
 
 .menu_header ul a:hover {
 	text-decoration: none;
+	color: #F3A943;
 }
 
 .donner_button {
 	background-color: #F3A943;
 	padding: 5px 15px;
 	margin: 10px 0 0 40px;
+	transition: background-color .3S ease-in;
+	cursor: pointer;
 } 
+
+.donner_button:hover {background-color: #4A90E2;}
 
 /*------------------------------------- FOOTER */
 
@@ -235,12 +243,18 @@ li.page_item.page-item-11{order: 4;}
 	padding: 8px 15px 7px;
 	margin: 0 20px 0 40px;
 	text-align: center;
+	
+	transition: background-color .3s ease-in;
 }
+
+.actus:hover .type {background-color: #4A90E2;}
 
 .actus a {
 	color: #fefefe;
 	font-size: 22px;
 }
+
+.actus a:hover {text-decoration: none;}
 
 .actu-container::-webkit-scrollbar {
     width: 0;
@@ -282,7 +296,11 @@ li.page_item.page-item-11{order: 4;}
 	text-align: center;
 	font-size: 22px;
 	color: #fefefe;
+	cursor: pointer;
+	transition: background-color .3s ease-in;
 }
+
+.form-submit:hover {background-color: #4A90E2;}
 
 .join-img {
 	background-image: url(../images/form.png);
@@ -295,12 +313,12 @@ li.page_item.page-item-11{order: 4;}
 
 
 /*---------------------------------------------------------------------------------------------------------------*/
-/*------------- A PROPOS */
+/*------------- PROGRAMME */
 /*---------------------------------------------------------------------------------------------------------------*/
 
 /*------------------------------------- PROGRAMME */
-.jafar-slogan_img.jafar-apropos {
-	background-image: url('../images/jafar-apropos.jpg');
+.jafar-slogan_img.jafar-programme {
+	background-image: url('../images/jafar-programme.jpg');
 }
 
 .programme-container {
@@ -356,7 +374,7 @@ li.page_item.page-item-11{order: 4;}
 
 .jafar-slogan.jafar-more {
 	padding-left: 0;
-	padding-top: 130px;
+	padding-top: 125px;
 	margin: 20px auto;
 }
 
@@ -372,4 +390,262 @@ li.page_item.page-item-11{order: 4;}
 .more-content span {
 	color: #F3A943;
 	font-weight: 500;
+}
+
+
+/*------------------------------------- SOUTIEN */
+
+.jafar-soutien p {
+	width: 650px;
+}
+
+.soutien-container {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	width: 75vw;
+	margin: auto;
+}
+
+.soutien-content {
+	display: flex;
+	flex-direction: column;
+	margin: 50px 0; 
+	
+}
+
+.soutien-text {
+	width: 18vw;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.soutien-title {
+	font-family: aladdin;
+	font-size: 3.2em;
+	color: silver;
+}
+
+.soutien-content:nth-child(3n+1) .soutien-title {
+	color: #93281F;
+}
+
+.soutien-content:nth-child(3n) .soutien-title {
+	color: #4A90E2;
+}
+.soutien-citation {
+	font-size: 18px;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.soutien-citation .aladdin {
+	font-size: 2em;
+	margin-top: ;
+	margin: -10px 5px 0;
+	font-weight: 200;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*------------- A PROPOS */
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------- BIO */
+.jafar-slogan_img.jafar-apropos {
+	background-image: url('../images/jafar-apropos.jpg');
+}
+
+.bio-img {
+	background-image: url('../images/jafar-bio.jpg');	
+	background-size: 100%;
+	width: 500px;
+	height: 600px;
+}
+
+.bio {
+	margin: 70px auto;
+	width: 70vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.bio-title {
+	font-family: aladdin;
+	font-size: 3.2em;
+	color: #F3A943;
+	padding-bottom: 40px;
+}
+
+.bio-text {
+	width: 30vw;
+	font-size: 18px;
+	text-align: justify;
+}
+
+/*------------------------------------- VIE */
+.vie-politique {
+	background-color: #93281F;
+	width: 100vw;
+	color: #fefefe;
+	padding: 20px 80px;
+}
+
+.vie-politique_content {
+	display: flex;
+	justify-content: space-around;
+	margin: 100px 50px;
+}
+
+.vie-img {
+	width: 300px;
+	height: 300px;
+	background-size: 100%;
+	transition: transform .2s ease-in;
+	cursor: pointer;
+}
+
+.vie-img:hover {
+    transform: scale(1.1);
+}
+
+.vie-img1 {background-image: url('../images/vie1.png');}
+
+.vie-img2 {background-image: url('../images/vie2.png');}
+
+.vie-img3 {background-image: url('../images/vie3.png');}
+
+/*------------------------------------- FAQ */
+
+.jafar-faq_img {
+	background-image: url('../images/jafar-more.jpg');
+	background-size: 100%;
+	width: 100vw;
+	height: 400px;
+}
+
+.jafar-slogan.jafar-faq {
+	padding-left: 0;
+	padding-top: 70px;
+	margin: 20px auto;
+}
+
+.jafar-slogan.jafar-faq p {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.faq-content {
+	width: 70vw;
+	margin: 100px auto;
+	position: relative;
+}
+
+.faq-content:after {
+	content: '';
+	position: absolute;
+	width: 15%;
+	height: 1px;
+	background-color: #93281F;
+	bottom: -50px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.faq-title.faq-jafar {
+	font-size: 2em;
+	text-align: center;
+	color: #93281F;
+	margin: 100px auto;
+}
+
+.faq-text {
+	font-size: 20px;
+	padding: 20px 0 0 70px;
+	text-align: justify;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+/*------------- ACTUALITES */
+/*---------------------------------------------------------------------------------------------------------------*/
+
+.actualite-container ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.actualites {
+    width: 25vw;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.actualite-img {margin: 0 auto;}
+
+.type-actualite {
+	background-color: #93281F;
+	color: #fefefe;
+	font-size: 24px;
+	font-weight: 500;
+	width: 200px;
+	padding: 5px 0;
+	margin: 25px auto;
+	box-shadow: 0px 3px 5px 0px #c0c0c0;
+}
+
+.actualite-title {
+	font-size: 20px;
+	width: 350px;
+	margin: 0 auto;
+	font-weight: 500;
+}
+
+.actualite-title a {
+	color: #010101;
+	transition: color .3s ease-in;
+}
+
+.actualite-title a:hover {
+	text-decoration: none;
+	color: #93281F;
+}
+
+.header_single-annonce {
+	width: 100vw;
+	height: 200px;
+	background-color: #93281F;
+}
+
+.single-container {
+	display: flex;
+	margin: 100px;
+}
+
+.single_img {margin-right: 50px;}
+
+.single_content h5 {
+	color: #93281F;
+	margin-bottom: 20px;
+}
+.single_content h1 {
+	font-family: aladdin;
+	font-size: 3.2em;
+	margin: 0 0 30px 0;
+}
+
+.single_content p {
+	font-size: 18px;
+	text-align: justify;
+}
+
+.signature {
+    text-align: right;
+    color: #4A90E2;
+    margin-top: 20px;
 }
