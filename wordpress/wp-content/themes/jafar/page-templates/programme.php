@@ -61,7 +61,7 @@ get_header(); //appel du template header.php  ?>
 
 
 	<!-- ************************ SOUTIEN ************************ -->
-	<div class="jafar-more_img">
+	<div class="jafar-soutien_img">
 		<div class="jafar-slogan jafar-more jafar-soutien"> <p>Ils me soutiennent</p> </div>
 	</div>
 

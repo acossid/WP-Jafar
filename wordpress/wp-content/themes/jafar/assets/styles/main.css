@@ -318,7 +318,7 @@ li.page_item.page-item-11{order: 4;}
 
 /*------------------------------------- PROGRAMME */
 .jafar-slogan_img.jafar-programme {
-	background-image: url('../images/jafar-programme.jpg');
+	background-image: url('../images/Jafar-programme.jpg');
 }
 
 .programme-container {
@@ -395,6 +395,13 @@ li.page_item.page-item-11{order: 4;}
 
 /*------------------------------------- SOUTIEN */
 
+.jafar-soutien_img {
+	background-image: url('../images/soutien.png');
+	background-size: 100%;
+	width: 100vw;
+	height: 500px;
+}
+
 .jafar-soutien p {
 	width: 650px;
 }
@@ -455,7 +462,7 @@ li.page_item.page-item-11{order: 4;}
 
 /*------------------------------------- BIO */
 .jafar-slogan_img.jafar-apropos {
-	background-image: url('../images/jafar-apropos.jpg');
+	background-image: url('../images/Jafar-apropos.jpg');
 }
 
 .bio-img {
@@ -521,7 +528,7 @@ li.page_item.page-item-11{order: 4;}
 /*------------------------------------- FAQ */
 
 .jafar-faq_img {
-	background-image: url('../images/jafar-more.jpg');
+	background-image: url('../images/faq.png');
 	background-size: 100%;
 	width: 100vw;
 	height: 400px;
@@ -572,6 +579,13 @@ li.page_item.page-item-11{order: 4;}
 /*---------------------------------------------------------------------------------------------------------------*/
 /*------------- ACTUALITES */
 /*---------------------------------------------------------------------------------------------------------------*/
+
+.jafar-actu_img {
+	background-image: url('../images/Jafar-TV.png');
+	background-size: 100%;
+	width: 100vw;
+	height: 100vh;
+}
 
 .actualite-container ul{
 	display: flex;

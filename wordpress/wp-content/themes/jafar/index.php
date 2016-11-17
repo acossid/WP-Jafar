@@ -1,6 +1,6 @@
 <?php get_header(); //appel du template header.php  ?>
 
-	<div class="jafar-slogan_img">
+	<div class="jafar-actu_img">
 		<div class="jafar-slogan"> <p> L'actualité autour de Jafar </p> </div>
 	</div>
 
