@@ -24,8 +24,8 @@
 			        while ( $the_query->have_posts() ) {
 			        $the_query->the_post();
 			        ?>
-			            <div class="actualites" id="annonces_<?php the_ID(); ?>">
-
+			            <a class="actualites" id="annonces_<?php the_ID(); ?>" href="<?php the_permalink() ?>">
+				            
 				            <div class="actualite-img">
 								<?php 
 				                    if(has_post_thumbnail()) {
@@ -38,10 +38,10 @@
 
 			                <div class="type-actualite"> <?php the_field('type') ?></div>
 			                <div class="actualite-title">
-			                	<?php the_title( sprintf( '<span class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></span>' ); ?>
+			                	<?php the_title( sprintf( '<span class="entry-title">', esc_url( get_permalink() ) ), '</span>' ); ?>
 			                </div>
-			                
-			            </div>
+				              
+				        </a>
 
 			            <?php
 			        }

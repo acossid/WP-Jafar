@@ -6,11 +6,11 @@
 				</div>
 
 				<div class="media-list">
-					<div class="social-list fb"></div>
-					<div class="social-list gplus"></div>
-					<div class="social-list insta"></div>
-					<div class="social-list tw"></div>
-					<div class="social-list yt"></div>
+					<a target="_blank" href="https://www.facebook.com/jafarpresident/"> <div class="social-list fb"></div> </a>
+					<a target="_blank" href="https://plus.google.com/u/1/109414878160616294581"> <div class="social-list gplus"></div> </a>
+					<a target="_blank" href="https://www.instagram.com/jafarpresident/"> <div class="social-list insta"></div> </a>
+					<a target="_blank" href="https://twitter.com/jafarpresident"> <div class="social-list tw"></div> </a>
+					<a target="_blank" href="https://www.youtube.com/channel/UCCCz39nr-oncMSRSBkga8XQ"> <div class="social-list yt"></div> </a>
 				</div>
 			</div>
 

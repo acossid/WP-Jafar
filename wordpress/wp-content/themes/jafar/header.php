@@ -28,7 +28,7 @@
                     wp_nav_menu($args);
                 ?>
 
-                <div class="navbar-text donner_button"> DONNER </div>
+                <div class="navbar-text donner_button"> <a target="_blank" href="https://paypal.me/PierredeGourcy/25000">DONNER</a> </div>
                 </div>
             </div>
           </nav>
