@@ -2,11 +2,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /H3/jafar-WP/wordpress/
+RewriteBase /WP-Jafar/wordpress/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /H3/jafar-WP/wordpress/index.php [L]
+RewriteRule . /WP-Jafar/wordpress/index.php [L]
 </IfModule>
 
 # END WordPress
